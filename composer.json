@@ -1,28 +1,28 @@
 {
-    "name": "laravel-enso/ro-addresses",
+    "name": "cgdsoftware/ro-addresses",
     "description": "Romanian Addreses extension for Addresses",
     "type": "library",
     "require": {
-        "laravel-enso/addresses": "3.4.*"
+        "cgdsoftware/addresses": "3.4.*"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Mihai Ocneanu",
             "email": "mihai.ocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Vlad Chiovianu",
             "email": "vlad.chiovianu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
