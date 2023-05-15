@@ -8,7 +8,7 @@
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/ro-addresses/version)](https://packagist.org/packages/laravel-enso/ro-addresses)
 <!--/h-->
 
-Romanian Addresses extension for [Addresses](https://github.com/laravel-enso/addresses), the [Laravel Enso](https://github.com/laravel-enso/Enso) package.
+Romanian Addresses extension for [Addresses](https://github.com/laravel-enso/addresses), the [Laravel Liberu](https://github.com/laravel-enso/Liberu) package.
 
 [![Screenshot](https://laravel-enso.github.io/ro-addresses/screenshots/bulma_040_thumb.png)](https://laravel-enso.github.io/ro-addresses/screenshots/bulma_040.png)
 
@@ -70,7 +70,7 @@ once a newer version is released
  
 ### Notes
 
-The [Laravel Enso Core](https://github.com/laravel-enso/Core) package does NOT come with this package included, 
+The [Laravel Liberu Core](https://github.com/laravel-enso/Core) package does NOT come with this package included, 
 only with the generic [Addresses](https://github.com/laravel-enso/addresses).
 
 This package depends on the [Addresses](https://github.com/laravel-enso/addresses) and 
