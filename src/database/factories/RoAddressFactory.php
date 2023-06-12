@@ -32,7 +32,7 @@ $factory->define(Address::class, function (Faker $faker, $attributes) {
     if (isset($attributes['locality_id'])) {
         $factory['locality_id'] = $attributes['locality_id'];
     } else {
-        $countyId = isset($attributes['county_id']) ? $attributes['county_id'] : $factory['county_id'];
+        $countyId = $attributes['county_id'] ?? $factory['county_id'];
         $factory['locality_id'] = Locality::where('county_id', $countyId)->pluck('id')->random();
     }
 

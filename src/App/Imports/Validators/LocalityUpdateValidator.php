@@ -9,7 +9,7 @@ use LaravelEnso\RoAddresses\App\Models\Locality;
 
 class LocalityUpdateValidator extends Validator
 {
-    public function run(Obj $row)
+    public function run(Obj $row, \LaravelEnso\Core\App\Models\User $user, \LaravelEnso\Helpers\App\Classes\Obj $params)
     {
         $county = County::whereName($row->county)->first();
 

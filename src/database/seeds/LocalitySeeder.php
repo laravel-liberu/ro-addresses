@@ -9,7 +9,7 @@ use LaravelEnso\Helpers\App\Classes\JsonReader;
 
 class LocalitySeeder extends Seeder
 {
-    const Localities = __DIR__.'/../../vendor/laravel-enso/ro-addresses/src/database/localities';
+    final public const Localities = __DIR__.'/../../vendor/laravel-enso/ro-addresses/src/database/localities';
 
     public function run()
     {

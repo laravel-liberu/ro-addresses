@@ -13,7 +13,7 @@ class AddressForm extends BaseAddressForm
 {
     protected const TemplatePath = __DIR__.'/../Templates/address.json';
 
-    public function create()
+    public function create(?Country $countryId)
     {
         $this->prepare();
         $this->form->value('country_id', Country::whereName('Romania')->first()->id);
@@ -21,7 +21,7 @@ class AddressForm extends BaseAddressForm
         return parent::create();
     }
 
-    public function edit(Address $address)
+    public function edit(Address $address, ?-> $countryId)
     {
         $this->prepare();
 
