@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
 
     private function loadDependencies()
     {
-        $this->mergeConfigFrom(__DIR__.'/config/addresses.php', 'enso.addresses');
+        $this->mergeConfigFrom(__DIR__.'/config/addresses.php', 'liberu.addresses');
 
         $this->loadRoutesFrom(__DIR__.'/routes/api.php');
 
@@ -39,15 +39,15 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/database/factories' => database_path('factories'),
-        ], ['ro-addresses-factory', 'enso-factories']);
+        ], ['ro-addresses-factory', 'liberu-factories']);
 
         $this->publishes([
             __DIR__.'/database/seeds' => database_path('seeds'),
-        ], ['ro-addresses-seeders', 'enso-seeders']);
+        ], ['ro-addresses-seeders', 'liberu-seeders']);
 
         $this->publishes([
-            __DIR__.'/config' => config_path('enso'),
-        ], ['ro-addresses-config', 'enso-config']);
+            __DIR__.'/config' => config_path('liberu'),
+        ], ['ro-addresses-config', 'liberu-config']);
 
         $this->publishes([
             __DIR__.'/app/Forms/Templates' => app_path('Forms/vendor/'),

@@ -147,7 +147,7 @@ class AddressTest extends TestCase
     /** @test */
     public function cannot_delete_an_addressable_while_having_restrict_address()
     {
-        Config::set('enso.addresses.onDelete', 'restrict');
+        Config::set('liberu.addresses.onDelete', 'restrict');
 
         $this->expectException(ConflictHttpException::class);
 
@@ -159,7 +159,7 @@ class AddressTest extends TestCase
     /** @test */
     public function can_delete_an_addressable_while_having_cascade_address()
     {
-        Config::set('enso.addresses.onDelete', 'cascade');
+        Config::set('liberu.addresses.onDelete', 'cascade');
 
         AddressableTestModel::destroy([$this->testModel->id]);
 

@@ -6,7 +6,7 @@ use LaravelLiberu\RoAddresses\App\Models\County;
 
 class CountySeeder extends Seeder
 {
-    private const Counties = __DIR__.'/../../vendor/laravel-enso/ro-addresses/src/database/counties.json';
+    private const Counties = __DIR__.'/../../vendor/laravel-liberu/ro-addresses/src/database/counties.json';
 
     public function run()
     {
