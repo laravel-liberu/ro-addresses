@@ -66,7 +66,7 @@
                     "meta": {
                         "type": "select",
                         "multiple": false,
-                        "options": "LaravelEnso\\Addresses\\App\\Enums\\StreetTypes"
+                        "options": "LaravelLiberu\\Addresses\\App\\Enums\\StreetTypes"
                     }
                 },
                 {
@@ -106,7 +106,7 @@
                         "multiple": false,
                         "type": "select",
                         "placeholder": "Choose",
-                        "options": "LaravelEnso\\Addresses\\App\\Enums\\BuildingTypes"
+                        "options": "LaravelLiberu\\Addresses\\App\\Enums\\BuildingTypes"
                     }
                 },
                 {

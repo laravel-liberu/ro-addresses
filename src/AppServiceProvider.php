@@ -1,14 +1,14 @@
 <?php
 
-namespace LaravelEnso\RoAddresses;
+namespace LaravelLiberu\RoAddresses;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelEnso\Addresses\App\Forms\Builders\AddressForm;
-use LaravelEnso\Addresses\App\Http\Requests\ValidateAddressRequest;
-use LaravelEnso\Addresses\App\Models\Address;
-use LaravelEnso\RoAddresses\App\Forms\Builders\AddressForm as Form;
-use LaravelEnso\RoAddresses\App\Http\Requests\ValidateAddressRequest as ValidateRoAddressRequest;
-use LaravelEnso\RoAddresses\App\Models\Address as RoAddress;
+use LaravelLiberu\Addresses\App\Forms\Builders\AddressForm;
+use LaravelLiberu\Addresses\App\Http\Requests\ValidateAddressRequest;
+use LaravelLiberu\Addresses\App\Models\Address;
+use LaravelLiberu\RoAddresses\App\Forms\Builders\AddressForm as Form;
+use LaravelLiberu\RoAddresses\App\Http\Requests\ValidateAddressRequest as ValidateRoAddressRequest;
+use LaravelLiberu\RoAddresses\App\Models\Address as RoAddress;
 
 class AppServiceProvider extends ServiceProvider
 {

@@ -1,12 +1,12 @@
 <?php
 
 use Faker\Generator as Faker;
-use LaravelEnso\Addresses\App\Enums\BuildingTypes;
-use LaravelEnso\Addresses\App\Enums\StreetTypes;
-use LaravelEnso\Countries\App\Models\Country;
-use LaravelEnso\RoAddresses\App\Models\Address;
-use LaravelEnso\RoAddresses\App\Models\County;
-use LaravelEnso\RoAddresses\App\Models\Locality;
+use LaravelLiberu\Addresses\App\Enums\BuildingTypes;
+use LaravelLiberu\Addresses\App\Enums\StreetTypes;
+use LaravelLiberu\Countries\App\Models\Country;
+use LaravelLiberu\RoAddresses\App\Models\Address;
+use LaravelLiberu\RoAddresses\App\Models\County;
+use LaravelLiberu\RoAddresses\App\Models\Locality;
 
 $factory->define(Address::class, function (Faker $faker, $attributes) {
     $factory = [

@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelEnso\RoAddresses\App\Models;
+namespace LaravelLiberu\RoAddresses\App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use LaravelEnso\Helpers\App\Contracts\Activatable;
-use LaravelEnso\Helpers\App\Traits\ActiveState;
+use LaravelLiberu\Helpers\App\Contracts\Activatable;
+use LaravelLiberu\Helpers\App\Traits\ActiveState;
 
 class Locality extends Model implements Activatable
 {

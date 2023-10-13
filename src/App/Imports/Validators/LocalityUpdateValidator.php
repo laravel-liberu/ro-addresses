@@ -1,15 +1,15 @@
 <?php
 
-namespace LaravelEnso\RoAddresses\App\Imports\Validators;
+namespace LaravelLiberu\RoAddresses\App\Imports\Validators;
 
-use LaravelEnso\DataImport\App\Services\Validators\Validator;
-use LaravelEnso\Helpers\App\Classes\Obj;
-use LaravelEnso\RoAddresses\App\Models\County;
-use LaravelEnso\RoAddresses\App\Models\Locality;
+use LaravelLiberu\DataImport\App\Services\Validators\Validator;
+use LaravelLiberu\Helpers\App\Classes\Obj;
+use LaravelLiberu\RoAddresses\App\Models\County;
+use LaravelLiberu\RoAddresses\App\Models\Locality;
 
 class LocalityUpdateValidator extends Validator
 {
-    public function run(Obj $row, \LaravelEnso\Core\App\Models\User $user, \LaravelEnso\Helpers\App\Classes\Obj $params)
+    public function run(Obj $row, \LaravelLiberu\Core\App\Models\User $user, \LaravelLiberu\Helpers\App\Classes\Obj $params)
     {
         $county = County::whereName($row->county)->first();
 

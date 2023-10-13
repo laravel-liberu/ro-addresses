@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use LaravelEnso\Helpers\App\Classes\JsonReader;
-use LaravelEnso\RoAddresses\App\Models\County;
+use LaravelLiberu\Helpers\App\Classes\JsonReader;
+use LaravelLiberu\RoAddresses\App\Models\County;
 
 class CountySeeder extends Seeder
 {

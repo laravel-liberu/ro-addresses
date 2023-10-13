@@ -2,8 +2,8 @@
     "timeout": 500,
     "sheets": [
         {
-            "importerClass": "LaravelEnso\\RoAddresses\\App\\Imports\\Importers\\LocalityUpdateImporter",
-            "validatorClass": "LaravelEnso\\RoAddresses\\App\\Imports\\Validators\\LocalityUpdateValidator",
+            "importerClass": "LaravelLiberu\\RoAddresses\\App\\Imports\\Importers\\LocalityUpdateImporter",
+            "validatorClass": "LaravelLiberu\\RoAddresses\\App\\Imports\\Validators\\LocalityUpdateValidator",
             "name": "localitati",
             "chunkSize": 1000,
             "columns": [

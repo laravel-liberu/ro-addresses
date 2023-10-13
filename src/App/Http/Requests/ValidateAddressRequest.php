@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelEnso\RoAddresses\App\Http\Requests;
+namespace LaravelLiberu\RoAddresses\App\Http\Requests;
 
 use Illuminate\Support\Collection;
-use LaravelEnso\Addresses\App\Http\Requests\ValidateAddressRequest as ValidateBaseAddressRequest;
+use LaravelLiberu\Addresses\App\Http\Requests\ValidateAddressRequest as ValidateBaseAddressRequest;
 
 class ValidateAddressRequest extends ValidateBaseAddressRequest
 {

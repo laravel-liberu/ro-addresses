@@ -1,6 +1,6 @@
 <?php
 
-use LaravelEnso\Migrator\App\Database\Migration;
+use LaravelLiberu\Migrator\App\Database\Migration;
 
 class CreateStructureForLocalities extends Migration
 {

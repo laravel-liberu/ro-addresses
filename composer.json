@@ -28,13 +28,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\RoAddresses\\": "src/"
+            "LaravelLiberu\\RoAddresses\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\RoAddresses\\AppServiceProvider"
+                "LaravelLiberu\\RoAddresses\\AppServiceProvider"
             ],
             "aliases": {}
         }

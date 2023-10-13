@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Schema;
-use LaravelEnso\Core\App\Models\User;
-use LaravelEnso\Countries\App\Models\Country;
-use LaravelEnso\RoAddresses\App\Models\Address;
-use LaravelEnso\RoAddresses\App\Traits\Addressable;
+use LaravelLiberu\Core\App\Models\User;
+use LaravelLiberu\Countries\App\Models\Country;
+use LaravelLiberu\RoAddresses\App\Models\Address;
+use LaravelLiberu\RoAddresses\App\Traits\Addressable;
 use Symfony\Component\HttpKernel\Exception\ConflictHttpException;
 use Tests\TestCase;
 
